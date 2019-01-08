@@ -6,4 +6,4 @@ build:
 
 zip:
 	@echo '- zipping'
-	@zip -j md.zip ./target/x86_64-unknown-linux-musl/release/bootstrap
+	@zip -j mdbda.zip ./target/x86_64-unknown-linux-musl/release/bootstrap

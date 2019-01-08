@@ -13,7 +13,7 @@ struct Event {
 }
 
 #[derive(Deserialize, Clone, Default)]
-#[serde(remote = "ComrakOptions", default)]
+#[serde(remote = "ComrakOptions", rename_all = "camelCase", default)]
 struct MdOptions {
     hardbreaks: bool,
     smart: bool,
